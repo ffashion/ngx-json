@@ -1,0 +1,24 @@
+diff --git a/auto/sources b/auto/sources
+index a539093c..a0dd0390 100644
+--- a/auto/sources
++++ b/auto/sources
+@@ -41,7 +41,8 @@ CORE_DEPS="src/core/nginx.h \
+            src/core/ngx_open_file_cache.h \
+            src/core/ngx_crypt.h \
+            src/core/ngx_proxy_protocol.h \
+-           src/core/ngx_syslog.h"
++           src/core/ngx_syslog.h \
++           src/core/ngx_json.h"
+ 
+ 
+ CORE_SRCS="src/core/nginx.c \
+@@ -78,7 +79,8 @@ CORE_SRCS="src/core/nginx.c \
+            src/core/ngx_open_file_cache.c \
+            src/core/ngx_crypt.c \
+            src/core/ngx_proxy_protocol.c \
+-           src/core/ngx_syslog.c"
++           src/core/ngx_syslog.c \
++           src/core/ngx_json.c"
+ 
+ 
+ EVENT_MODULES="ngx_events_module ngx_event_core_module"
